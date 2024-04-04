@@ -6,11 +6,11 @@
     </div>
     <div class="hidden lg:flex gap-9 font-bold dark:text-secondary">
       @foreach ( $headers as $header )
-      <a class="py-2" href="{{ request()->path() === ($header['href']??null) ? "text-primary":"/#" }}"><li class="transform transition duration-300 ease-in hover:text-primary hover:-translate-y-2">{{$header['name']}}</li></a>
+      <a class="py-2" href="{{ ($header['href']??null) }}"><li class="{{ request()->path() === ($header['href']??null) ? "text-primary" : null }} transform transition duration-300 ease-in hover:text-primary hover:-translate-y-2">{{$header['name']}}</li></a>
       @endforeach
     </div>
     <div class="flex gap-9 font-bold">
-      <i class="text-[30px] lg:text-[0px] fa-solid fa-bars "></i>
+      <i class="dark:text-black text-[30px] lg:text-[0px] fa-solid fa-bars "></i>
       <button class="hidden lg:block bg-gradient-to-r from-indigo-500 to-blue-500 hover:bg-gradient-to-r hover:from-blue-800 hover:to-indigo-900 duration-300 hover:py-2 shadow-md text-sm text-slate-50 dark:bg-secondary border rounded-full py-1 px-5">
         Get in Touch
       </button>
