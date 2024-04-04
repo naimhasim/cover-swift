@@ -1,0 +1,7 @@
+id,name,description,icon
+1,Auto,"Provides coverage for vehicles against accidents, theft, and other damages.","fa-solid fa-car"
+2,Life,Offers financial protection for loved ones in the event of death.,fa-solid fa-person
+3,Motorcycle,Provides protection for motorcycles and riders against accidents and theft.,fa-solid fa-motorcycle
+4,Identity Protection,Safeguards against identity theft with monitoring and assistance services.,fa-solid fa-fingerprint
+5,Property,Covers homes and belongings against damage from perils like fire and theft.,fa-solid fa-building
+6,Flood,"Protects against losses from flooding, including structural and content damage.",fa-solid fa-water
