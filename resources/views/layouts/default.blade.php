@@ -20,7 +20,7 @@
 @endphp
 
 <!doctype html>
-<html lang="en" class="">
+<html lang="en" class="dark:">
 <head>
   @include('includes.head')
 </head>
@@ -39,18 +39,33 @@
  </footer>
 <script src="https://kit.fontawesome.com/317395b246.js" crossorigin="anonymous"></script>
 <script>
-  // Function to detect system preference and toggle dark mode
-  function toggleDarkMode() {
-      const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      const htmlElement = document.querySelector('html');
 
-      if (prefersDarkMode) {
-          htmlElement.classList.add('dark');
-      } else {
-          htmlElement.classList.remove('dark');
-      }
+  function toggleDarkMode() {
+    const htmlElement = document.querySelector('html');
+    htmlElement.classList.toggle('dark');
+
+    const isDarkMode = htmlElement.classList.contains('dark');
+
+    // Store the current state in localStorage
+    localStorage.setItem('darkMode', isDarkMode ? 'dark' : '');
+      console.log('asd')
   }
-  // toggleDarkMode();
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const htmlElement = document.querySelector('html');
+    const storedDarkMode = localStorage.getItem('darkMode');
+    if (storedDarkMode === 'dark') {
+        htmlElement.classList.add('dark');
+    } else if (storedDarkMode === '') {
+        htmlElement.classList.remove('dark');
+    } else {
+        // If no value is found in localStorage, check the system preference
+        const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (prefersDarkMode) {
+            htmlElement.classList.add('dark');
+        }
+    }
+});
 </script>
 </body>
 </html>

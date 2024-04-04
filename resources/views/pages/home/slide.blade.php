@@ -9,8 +9,8 @@
 
         <div class="rounded-3xl inline-block w-3/5 md:w-1/2 lg:w-full mr-5">
           <div class="flex flex-col rounded-3xl bg-white shadow-lg dark:bg-slate-50 text-center w-full md:w-100 h-[450px]">
-            <div class="w-full h-3/5 flex justify-center items-center p-2 bg-primary rounded-t-3xl">
-              s
+            <div class="w-full h-3/5 flex justify-center items-center  bg-primary rounded-t-3xl">
+              <img class="rounded-t-3xl w-full h-full" src="{{asset('img/andrea-piacquadio.jpg')}}" alt="" />
             </div>
             <div class="grow flex items-center justify-start py-3 md:py-0 px-8 break-words">
               <div class="flex flex-col justify-between gap-3 font-normal text-start text-neutral-800 dark:text-black w-full whitespace-normal">
@@ -25,8 +25,8 @@
         </div>
         <div class="rounded-3xl inline-block w-3/5 md:w-1/2 lg:w-full mr-5">
           <div class="flex flex-col rounded-3xl bg-white shadow-lg dark:bg-slate-50 text-center w-full md:w-100 h-[450px]">
-            <div class="w-full h-3/5 flex justify-center items-center p-2 bg-primary rounded-t-3xl">
-              s
+            <div class="w-full h-3/5 flex justify-center items-center bg-primary rounded-t-3xl">
+              <img class="rounded-t-3xl w-full h-full" src="{{asset('img/pexels-alexander-isreb.jpg')}}" alt="" />
             </div>
             <div class="grow flex items-center justify-start py-3 md:py-0 px-8 break-words">
               <div class="flex flex-col justify-between gap-3 font-normal text-start text-neutral-800 dark:text-black w-full whitespace-normal">
@@ -41,8 +41,8 @@
         </div>
         <div class="rounded-3xl inline-block w-3/5 md:w-1/2 lg:w-full mr-5">
           <div class="flex flex-col rounded-3xl bg-white shadow-lg dark:bg-slate-50 text-center w-full md:w-100 h-[450px]">
-            <div class="w-full h-3/5 flex justify-center items-center p-2 bg-primary rounded-t-3xl">
-              s
+            <div class="w-full h-3/5 flex justify-center items-center bg-primary rounded-t-3xl">
+              <img class="rounded-t-3xl w-full h-full" src="{{asset('img/pexels-karolina-grabowska.jpg')}}" alt="" />
             </div>
             <div class="grow flex items-center justify-start py-3 md:py-0 px-8 break-words">
               <div class="flex flex-col justify-between gap-3 font-normal text-start text-neutral-800 dark:text-black w-full whitespace-normal">
@@ -57,8 +57,8 @@
         </div>
         <div class="rounded-3xl inline-block w-3/5 md:w-1/2 lg:w-full mr-5">
           <div class="flex flex-col rounded-3xl bg-white shadow-lg dark:bg-slate-50 text-center w-full md:w-100 h-[450px]">
-            <div class="w-full h-3/5 flex justify-center items-center p-2 bg-primary rounded-t-3xl">
-              s
+            <div class="w-full h-3/5 flex justify-center items-center bg-primary rounded-t-3xl">
+              <img class="rounded-t-3xl w-full h-full" src="{{asset('img/andrea-piacquadio.jpg')}}" alt="" />
             </div>
             <div class="grow flex items-center justify-start py-3 md:py-0 px-8 break-words">
               <div class="flex flex-col justify-between gap-3 font-normal text-start text-neutral-800 dark:text-black w-full whitespace-normal">
