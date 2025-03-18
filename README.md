@@ -5,17 +5,19 @@
 
 
 ```
-git clone <repository url>
+git clone git@github.com:naimhasim/cover-swift.git
 
 cp .env.example .env
+
+touch database/database.sqlite
 
 composer install & npm install
 
 php artisan key:generate
 
-npm run dev
+npm run build
 
-./vendor/bin/sail up -d
+docker-compose up -d
 
 php artisan migrate 
 
